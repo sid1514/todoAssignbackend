@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const TodoList = mongoose.Schema({
-  TaskName: { type: String },
+  TaskName: { type: String ,required:true},
   TaskDescription: { type: String },
 });
 
